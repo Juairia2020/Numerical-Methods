@@ -2,11 +2,9 @@
 
 Bracketing method for finding real roots using linear interpolation.
 
-## Diagram
-
 The basic idea is to join the two points `A = (a, f(a))` and `B = (b, f(b))` with a straight line. The point where this line intersects the x-axis is taken as the next approximation `x₀`.
 
-![False Position Method Diagram]()
+![False Position Method Diagram](regular-falsi.webp)
 
 ## Derivation of x₀
 
