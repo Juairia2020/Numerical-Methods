@@ -18,7 +18,7 @@ void false_pos(double lo, double hi){
 
         double x_0 = (lo*func(hi) - hi*func(lo))/(func(hi)-func(lo));
 
-        if(func(x_0)==0){
+        if(abs(func(x_0))<E){
             cout<<"Root: "<<SP<<x_0<<" --> ["<<lo<<","<<hi<<"] Iterations: "<<it<<endl;
             break;
         }
@@ -49,7 +49,7 @@ int main(){
 
    for(double i=-range; i<range; i+=0.5){
 
-    if(func(i)==0){
+    if(abs(func(i))<E){
         cout<<"Root: "<<SP<<i<<" --> ["<<i<<","<<i<<"] Iterations: 0\n";
     }
 
