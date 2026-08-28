@@ -45,7 +45,7 @@ void false_pos(double lo, double hi){
 int main(){
 
    cin>>a>>b>>c>>d>>e;
-   double range = sqrt((b/2)*(b/a) - 2*(c/a));
+   double range = sqrt((b/a)*(b/a) - 2*(c/a));
 
    for(double i=-range; i<range; i+=0.5){
 
