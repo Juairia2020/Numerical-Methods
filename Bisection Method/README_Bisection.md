@@ -12,7 +12,7 @@ $$
 
 then at least one root lies between \(a\) and \(b\). The interval is then bisected to obtain a new approximation.
 
-![Bisection Method](assets/bisection-method.png)
+![Bisection Method](bisection.jpg)
 
 ### Derivation of \(x_0\)
 
